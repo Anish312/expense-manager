@@ -1,0 +1,45 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+.footer-dasbboard-icon{
+    cursor: pointer;
+}
+  .footer-bar {
+    background: rgba(45, 64, 89, 0.79);
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; /* Center the circle vertically */
+    justify-content: space-around; /* Center the circle horizontally */
+    position: relative; /* Make it a positioning context for the circle */
+  }
+  
+  .circle {
+    width: 68px;
+    height: 68px;
+    background: red;
+    border-radius: 50%;
+    position: absolute; /* Position the circle relative to the footer-bar */
+    top: -30px; /* Move the circle half outside of the footer */
+    display: flex;
+    color: white;
+    align-items: center; /* Center the "+" sign vertically */
+    justify-content: center; /* Center the "+" sign horizontally */
+  }
+  
+  .plus {
+    font-size: 20px;
+    color: white;
+  }
+  .add {
+    color: white;
+margin-top: 4px;
+  }
+  

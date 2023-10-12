@@ -1,0 +1,223 @@
+.progress {
+  position: relative;
+  margin: 4px;
+  margin-top: 50px;
+  float: left;
+  text-align: center;
+}
+
+.barOverflow {
+  position: relative;
+  overflow: hidden;
+  width: 150px; /* Increase the width for a larger circle */
+  height: 75px; /* Increase the height for a larger circle */
+  margin-bottom: -24px; /* Adjust the margin to center the numbers */
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px; /* Increase the width for a larger circle */
+  height: 150px; /* Increase the height for a larger circle */
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 9px solid #eee;
+  border-bottom-color: #DC2F2F;
+  border-right-color: #DC2F2F;
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #007bff;
+  --background-color: #121212;
+  --text-color: #fff;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  
+}
+
+.dashboard  > a {
+  text-decoration: none;
+  color: #040404;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header > div {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dashboard-link {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-link > a {
+  background-color: #007bff; /* Blue color for the link */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-link > a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.dashboard-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.dashboard-box {
+  width: 20%;
+
+  background-color: #ffffff; /* Darker background color for boxes */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.dashboard-box:last-child {
+  margin-right: 0;
+}
+
+.dashboard-box-line {
+  height: 4px;
+  background-color: red; /* Blue line color */
+margin: 9px 0 11px 0;
+  width: 40%;
+
+}
+
+.dashboard-box-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dashboard-box-num {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.dashboard-status {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dashboard-text {
+  font-size: 16px;
+}
+
+.dashboard-category-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.dashboard-category-boxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 37%;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.dashboard-category-box {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+align-items: center;
+justify-content: space-between;
+  background-color: #ffffff; /* Darker background color for category boxes */
+  padding: 20px 33px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+.dashboard-category-box-p{
+  font-weight: bold;
+}
+.dashboard-category-box-line {
+  height: 2px;
+  background-color: #DC2F2F;
+  width: 30px;
+  margin-top: 4px;
+}
+.dashboard-category-box-details-total{
+ font-weight: bold;
+
+}
+.dashboard-category-box-details-p{
+  font-size: 14px;
+  color: #cccccc;
+
+}
+.dashboard-category-box:last-child {
+  margin-right: 0;
+}
+
+.dashboard-category-box-details {
+  margin-top: 10px;
+}
+
+
+.dashboard-shape-blue{
+  width: 490px;
+    height: 400px;
+    position:absolute;
+top: 0;
+    z-index: -9999;
+    right: 0;
+
+    margin-top: -120px;
+    margin-right: -200px;
+    background: red;
+    /* -moz-border-radius: 0px 200px  20px 110px;
+    -webkit-border-radius: 0px 0px  20px 110px; */
+  /* -webkit-clip-path: ellipse(50% 40% at 50% 50%);
+  clip-path: ellipse(50% 40% at 50% 50%); */
+   border-radius: 10px 10px 40px 400px;
+}
+.dashboard-shape-red{
+  width: 700px;
+    height:700px;
+    position:absolute;
+bottom: 0;
+    z-index: -9999;
+    left: 0;
+    margin-bottom: -390px;
+    margin-left: -300px;
+    background: rgb(28, 92, 210);
+    /* -moz-border-radius: 0px 200px  20px 110px;
+    -webkit-border-radius: 0px 0px  20px 110px; */
+border-top-right-radius: 400px;
+}

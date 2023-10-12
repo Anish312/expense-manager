@@ -1,0 +1,101 @@
+.signUp {
+  height: 100vh; 
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp-container {
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.24) 0px 3px 8px;
+  padding: 40px 30px ; /* Reduce padding for a more compact layout */
+  background: #eee;
+  border-radius: 20px;
+justify-content: center;
+  max-width: 400px; /* Limit the maximum width of the container */
+  width: 100%; /* Ensure the container takes full available width */
+}
+
+.signUp-form-container {
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signUp-form-group {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+
+.signUp-form-group > label {
+  font-size: 14px;
+  margin-bottom: 6px; /* Add margin to separate label and input */
+}
+
+.signUp-form-group > input {
+  height: 30px;
+ width: 300px;
+  align-self: stretch;
+  border: 1px solid var(--greyscale-grey-70, #353542);
+  background-color: #d9d9d9;
+  border-bottom: 1px solid black;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  backdrop-filter: blur(5px);
+  padding: 5px; /* Add padding for better input appearance */
+  color: rgb(137, 137, 137); /* Set text color to white */
+}
+
+.signUp-btn{
+    background: #2D4059;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+color: white;
+padding: 12px 19px ;
+margin-top: 10px;
+border: none;
+}
+
+.signUp-btn:hover{
+
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); 
+
+}
+
+
+.signUp-shape-blue{
+    width: 490px;
+      height: 400px;
+      position:absolute;
+  top: 0;
+      z-index: -9999;
+      right: 0;
+  
+      margin-top: -120px;
+      margin-right: -200px;
+      background: rgb(28, 92, 210);
+      /* -moz-border-radius: 0px 200px  20px 110px;
+      -webkit-border-radius: 0px 0px  20px 110px; */
+    /* -webkit-clip-path: ellipse(50% 40% at 50% 50%);
+    clip-path: ellipse(50% 40% at 50% 50%); */
+     border-radius: 10px 10px 40px 400px;
+  }
+  .signUp-shape-red{
+    width: 700px;
+      height:700px;
+      position:absolute;
+  bottom: 0;
+      z-index: -9999;
+      left: 0;
+      margin-bottom: -390px;
+      margin-left: -300px;
+      background: red;
+      /* -moz-border-radius: 0px 200px  20px 110px;
+      -webkit-border-radius: 0px 0px  20px 110px; */
+  border-top-right-radius: 400px;
+  }
+  
