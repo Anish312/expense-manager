@@ -47,7 +47,7 @@ margin-top: 100px;
 }
 
 .getStarted-btn:hover {
-  box-shadow: 0px 3px 15px 0px rgba(255, 121, 102, 0.5);
+  box-shadow: 0px 3px 15px 0px rgba(55, 55, 55, 0.5);
 }
 .haveAccount-btn {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,9 +66,8 @@ margin-top: 100px;
  background-color: #EEEEEE;
 }
 .haveAccount-btn:hover {
-   
-    background: rgba(56, 56, 56, 0.1);
-  }
+background-color: #e9e9e9;
+}
 .getStarted-right {
   color: #fff;
 }
@@ -104,4 +103,16 @@ bottom: 0;
 	/* -moz-border-radius: 0px 200px  20px 110px;
 	-webkit-border-radius: 0px 0px  20px 110px; */
 border-top-left-radius: 400px ;
+}
+
+@media (max-width: 768px) { 
+  .getStarted-shape-red{
+    width: 650px;
+    height:650px;
+
+  }
+  .getStarted-shape-blue{
+    width: 650px;
+    height: 400px;
+  }
 }

@@ -5,30 +5,34 @@ import { clearUser, selectUser, setUser } from "../../redux/authSlice";
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from "../../imgs/logo.png"
+import { useNavigate } from 'react-router-dom';
+
 function Header() {
     const user = useSelector(selectUser);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleLogOut = () => {
         dispatch(clearUser()); // Dispatch the clearUser action to clear user data in Redux
         auth.signOut();
+        navigate('/')
       };
   return (
     <div className='header'>
-                    <Link to="/home">
+                   
 
         <div>
           <img src={logo} alt="" className='header-img'/>
         </div>
-        </Link>
+        
         <div className='header-right'>
         {user  ? (  <div className='header-logout' type="" onClick={handleLogOut}>
             Logout
           </div>
       
         ) : (
-            <Link to="/signin">
-                        <p>log in</p>
+            <Link to="/signin" style={{textDecoration: "none"}}>
+              <p  className='header-login'>Login</p>
 
             </Link>
         )}

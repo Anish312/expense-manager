@@ -25,3 +25,15 @@ padding: 10px 0;
     color: #007bff;
  
 }
+
+.header-login{
+    color: white;
+    transition: all .4s ease;
+    margin-right: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header-login:hover{
+    color: #007bff;
+ 
+}

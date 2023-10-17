@@ -221,3 +221,84 @@ bottom: 0;
     -webkit-border-radius: 0px 0px  20px 110px; */
 border-top-right-radius: 400px;
 }
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .progress {
+    position: relative;
+    margin: 4px;
+    margin-top: 100px;
+    float: left;
+    text-align: center;
+  }
+  
+  .bar {
+
+    border-bottom-color: blue;
+    border-right-color: blue;
+  }
+  .dashboard {
+    padding: 10px; 
+overflow: hidden;
+
+  }
+
+  .dashboard-header {
+    margin-bottom: 10px;
+  }
+
+  .dashboard-boxes {
+    
+    justify-content: center;
+    align-items: center;/* Stack boxes vertically on smaller screens */
+  }
+.dashboard-box-save {
+  display: none;
+}
+  .dashboard-box {
+    width: 50%; /* Make boxes full-width on smaller screens */
+    margin: 10px;
+
+ 
+  }
+  .dashboard-box-text {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .dashboard-box-num {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .dashboard-category-container {
+    width: 100%; 
+   
+  }
+  
+.dashboard-category-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  gap: 15px;
+}
+.dashboard-category-box {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: #ffffff; /* Darker background color for category boxes */
+    padding: 20px 33px;
+  
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+
+.dashboard-shape-red{
+
+ }
+}

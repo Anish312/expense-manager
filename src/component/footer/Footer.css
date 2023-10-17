@@ -43,3 +43,117 @@
 margin-top: 4px;
   }
   
+
+  @media (max-width: 768px) { 
+ 
+
+
+    .footer-bar {
+  
+      padding: 20px;
+ 
+    }
+    
+    .circle {
+      width: 68px;
+      height: 68px;
+      background: red;
+      border-radius: 50%;
+      position: absolute; /* Position the circle relative to the footer-bar */
+      top: -30px; /* Move the circle half outside of the footer */
+      display: flex;
+      color: white;
+      align-items: center; /* Center the "+" sign vertically */
+      justify-content: center; /* Center the "+" sign horizontally */
+      margin-left: -30px;
+    }
+    
+    .plus {
+      font-size: 20px;
+      color: white;
+      
+    }
+    .add {
+      color: white;
+  margin-top: 4px;
+    }
+    
+    
+  }
+  
+
+.footer-dasbboard-icon-dashboard:hover::before {
+  content: "Dashboard";
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and transparency as needed */
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: -30px; /* Adjust the margin to position the text as needed */
+  text-align: center;
+}
+
+/* Hide the text by default and show it on hover */
+.footer-dasbboard-icon-tran::before {
+  content: "";
+  display: none;
+}
+
+/* Add the following style for the "plus" icon inside the circle */
+
+.footer-dasbboard-icon-tran:hover::before {
+  content: "Trasactions";
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.footer-dasbboard-icon-dashboard::before {
+  content: "";
+  display: none;
+}
+
+
+.footer-dasbboard-salary:hover::before {
+  content: "Add Salary";
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.footer-dasbboard-salary::before {
+  content: "";
+  display: none;
+}
+
+.footer-dasbboard-setting:hover::before {
+  content: "Setting";
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.footer-dasbboard-salary-setting::before {
+  content: "";
+  display: none;
+}

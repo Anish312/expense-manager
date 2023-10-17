@@ -99,4 +99,13 @@ border: none;
       -webkit-border-radius: 0px 0px  20px 110px; */
   border-top-right-radius: 400px;
   }
-  
+  .signIn-error-message {
+    color: red;
+    font-size: 13px;
+  }
+
+
+  .error-message {
+    color: red;
+    font-size: 13px;
+  }

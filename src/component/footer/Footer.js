@@ -4,16 +4,18 @@ import { BiSolidDashboard ,BiTransferAlt } from 'react-icons/bi';
 import { MdOutlineSavings  } from 'react-icons/md';
 import { AiOutlineSetting  } from 'react-icons/ai';
 import { GrFormAdd  } from 'react-icons/gr';
+import { BiMoneyWithdraw  } from 'react-icons/bi';
+
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className='footer'>
       <div className='footer-bar'>
-       <div className='footer-dasbboard-icon'>
+       <div className='footer-dasbboard-icon footer-dasbboard-icon-dashboard'>
        <BiSolidDashboard fontSize={30 }/>
        </div>
-       <div className='footer-dasbboard-icon'>
+       <div className='footer-dasbboard-icon footer-dasbboard-icon-tran'>
       <BiTransferAlt fontSize={30} />
        </div>
        <Link to={`/addExpense`}>
@@ -26,12 +28,12 @@ function Footer() {
 
        <Link to={`/addSalary`} style={{textDecoration: "none" , color: "white"}}>
 
-        <div className='footer-dasbboard-icon'>
+        <div className='footer-dasbboard-icon  footer-dasbboard-salary'>
 
-   <MdOutlineSavings fontSize={30}/>
+   <BiMoneyWithdraw fontSize={30} />
        </div>
        </Link>
-       <div className='footer-dasbboard-icon'>
+       <div className='footer-dasbboard-icon footer-dasbboard-setting'>
       <AiOutlineSetting fontSize={30} />
        </div>
       </div>
