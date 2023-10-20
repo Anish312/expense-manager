@@ -15,6 +15,7 @@ import AddSalary from "./views/addSalary/AddSalary";
 import AddExpense from "./views/addExpense/AddExpense";
 import AddCategory from "./views/addCategory/AddCategory";
 import Footer from "./component/footer/Footer";
+import Setting from "./views/setting/Setting";
 
 function App() {
   const user = useSelector(selectUser);
@@ -54,6 +55,7 @@ function App() {
           <Route path="/addSalary" element={<AddSalary  />} />
           <Route path="/addExpense" element={<AddExpense  />} />
           <Route path="/addCategory" element={<AddCategory  />} />
+          <Route path="/setting" element={<Setting />} />
 
         </Routes>
         {/* <Footer/> */}

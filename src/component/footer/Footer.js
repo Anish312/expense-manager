@@ -33,9 +33,12 @@ function Footer() {
    <BiMoneyWithdraw fontSize={30} />
        </div>
        </Link>
+       <Link to={`/setting`} style={{textDecoration: "none" , color: "white"}}>
+
        <div className='footer-dasbboard-icon footer-dasbboard-setting'>
       <AiOutlineSetting fontSize={30} />
        </div>
+       </Link>
       </div>
     </div>
   );

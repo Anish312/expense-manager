@@ -128,7 +128,7 @@ function Dashboard() {
       <div className="dashboard-boxes">
     
         <div className="dashboard-box">   
-               <div className="dashboard-box-num">{salary}</div>     
+               <div className="dashboard-box-num">{salary} ₹</div>     
 
           <div className="dashboard-box-line"></div>
                <div className="dashboard-box-text">Total Salary</div>
@@ -136,14 +136,14 @@ function Dashboard() {
         </div>
 
         <div className="dashboard-box">      
-            <div className="dashboard-box-num">{remainingSalary}</div>
+            <div className="dashboard-box-num">{remainingSalary} ₹</div>
 
                <div className="dashboard-box-line"></div>
           <div className="dashboard-box-text">Remaining Salary</div>     
 
         </div>
         <div className="dashboard-box dashboard-box-save ">    
-              <div className="dashboard-box-num">323</div>   
+              <div className="dashboard-box-num">323 ₹</div>   
 
           <div className="dashboard-box-line"></div>
                  <div className="dashboard-box-text">Total Saved</div>

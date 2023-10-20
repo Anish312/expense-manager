@@ -4,7 +4,7 @@ import { storage, auth } from "../db/firebase";
 const db = getFirestore();
 
 // Function to reset the salary
-const resetSalary = async (userId) => {
+export const resetSalary = async (userId) => {
   try {
     const userDocRef = doc(db, "users", userId);
 
