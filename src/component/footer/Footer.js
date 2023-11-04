@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import { BiSolidDashboard ,BiTransferAlt } from 'react-icons/bi';
-import { MdOutlineSavings  } from 'react-icons/md';
 import { AiOutlineSetting  } from 'react-icons/ai';
 import { GrFormAdd  } from 'react-icons/gr';
 import { BiMoneyWithdraw  } from 'react-icons/bi';

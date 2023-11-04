@@ -13,7 +13,7 @@
   .footer-bar {
     background: rgba(45, 64, 89, 0.79);
     width: 70%;
-    padding: 20px;
+    padding: 16px;
     border-radius: 20px;
     display: flex;
     align-items: center; /* Center the circle vertically */
@@ -44,6 +44,19 @@ margin-top: 4px;
   }
   
 
+  @media (max-width: 768px) { 
+    .footer-bar {
+      background: rgba(45, 64, 89, 0.79);
+      width: 85%;
+      padding: 16px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center; /* Center the circle vertically */
+      justify-content: space-around; /* Center the circle horizontally */
+      position: relative; /* Make it a positioning context for the circle */
+    }
+  }
+ 
   @media (max-width: 768px) { 
  
 

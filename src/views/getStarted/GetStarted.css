@@ -105,6 +105,8 @@ bottom: 0;
 border-top-left-radius: 400px ;
 }
 
+
+
 @media (max-width: 768px) { 
   .getStarted-shape-red{
     width: 650px;
@@ -114,5 +116,30 @@ border-top-left-radius: 400px ;
   .getStarted-shape-blue{
     width: 650px;
     height: 400px;
+  }
+}
+@media (max-width: 370px) { 
+  .getStarted-shape-red{
+    width: 600px;
+    height:650px;
+
+  }
+  .getStarted-shape-blue{
+    width: 650px;
+    height: 400px;
+  }
+  .getStarted-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    display: flex;
+    width: 220px;
+   
+  }
+  
+
+  .haveAccount-btn {
+    
+    width: 220px;
+ 
   }
 }

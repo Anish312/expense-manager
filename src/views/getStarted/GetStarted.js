@@ -26,9 +26,7 @@ function GetStarted() {
             </Link>
           </div>
         </div>
-        <div className="getStarted-right">
-          <div>ffgfdg</div>
-        </div>
+       
       </div>
     </div>
   );
