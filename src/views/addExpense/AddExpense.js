@@ -147,13 +147,13 @@ function AddExpense() {
                 ))}
               </select>
               <Link to={"/addCategory"} state={user}>
-                <button type="" className="expense-form-add-cat"> + add</button>
+                <button type="" className="expense-form-add-cat"> + add new</button>
               </Link>
               {expenseTypeError && <p className="error-message">{expenseTypeError}</p>}
             </div>
 
             <button type="submit" className="addExpense-btn">
-              Sign in
+       Add
             </button>
           </form>
         </div>
